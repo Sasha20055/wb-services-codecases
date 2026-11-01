@@ -1,0 +1,9 @@
+{
+  "name": "wb-services-codecases",
+  "private": true,
+  "type": "module",
+  "description": "Исходные примеры архитектуры микрофронтендов и аналитических сервисов",
+  "scripts": {
+    "test": "bun test ./apps/supplier-analytics/backend/src/utils/concurrency-limit.test.ts ./tests/calculation-mocks.test.ts"
+  }
+}
